@@ -25,15 +25,11 @@ Python의 클래스, 반복문, 조건문, 예외 처리와 JSON 파일 입출�
 
 ## 실행 방법
 
-프로젝트 폴더에서 다음 명령어를 실행합니다.
-
 ```bash
 python main.py
 ```
 
 ## 테스트 실행
-
-자동화 테스트를 실행하려면 다음 명령어를 사용합니다.
 
 ```bash
 python -m unittest -v test_quiz
@@ -49,13 +45,13 @@ python -m py_compile main.py quiz.py quiz_game.py test_quiz.py
 
 ```text
 lol-champopn-quiz/
-├── main.py          # 프로그램 시작 및 안전한 종료 처리
-├── quiz.py          # Quiz 클래스: 문제 출력 및 정답 확인
-├── quiz_game.py     # QuizGame 클래스: 메뉴, 게임, 저장 및 불러오기
-├── state.json       # 퀴즈 데이터와 최고 점수 저장
-├── test_quiz.py     # 자동화 테스트
-├── .gitignore       # Git 추적 제외 파일
-└── README.md        # 프로젝트 설명 및 실행 방법
+├── main.py
+├── quiz.py
+├── quiz_game.py
+├── state.json
+├── test_quiz.py
+├── .gitignore
+└── README.md
 ```
 
 ## 데이터 파일 설명
@@ -80,6 +76,14 @@ lol-champopn-quiz/
 - clone 폴더에서 README를 수정하고 push
 - 원본 저장소에서 pull하여 변경 사항 동기화
 - 입력 검증, 데이터 검증 및 자동화 테스트 보완
+
+## 개발 과정 증거 자료
+
+아래 이미지는 개발 과정에서 직접 캡처한 증거 화면을 한눈에 볼 수 있도록 모아둔 것입니다.
+
+![개발 과정 및 최종 실행 증거 모음](evidence/overview.jpg)
+
+증거 자료는 환경 설정, Git/GitHub, 퀴즈 기능, JSON 저장, 예외 처리, 브랜치 병합, Clone/Pull, 최종 실행 순서로 정리했습니다.
 
 ## 저장소
 

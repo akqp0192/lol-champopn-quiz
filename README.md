@@ -77,14 +77,6 @@ lol-champopn-quiz/
 - 원본 저장소에서 pull하여 변경 사항 동기화
 - 입력 검증, 데이터 검증 및 자동화 테스트 보완
 
-## 개발 과정 증거 자료
-
-아래 이미지는 개발 과정에서 직접 캡처한 증거 화면을 한눈에 볼 수 있도록 모아둔 것입니다.
-
-![개발 과정 및 최종 실행 증거 모음](evidence/overview.jpg)
-
-증거 자료는 환경 설정, Git/GitHub, 퀴즈 기능, JSON 저장, 예외 처리, 브랜치 병합, Clone/Pull, 최종 실행 순서로 정리했습니다.
-
 ## 저장소
 
 https://github.com/akqp0192/lol-champopn-quiz

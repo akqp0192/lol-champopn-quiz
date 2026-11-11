@@ -133,40 +133,37 @@ class QuizGame:
 
             else:
                 print("1~5 사이의 번호를 입력해 주세요.")
-    def add_quiz(self):
-        print("\n===== 퀴즈 추가 =====")
+        def add_quiz(self):
+            print("\n===== 퀴즈 추가 =====")
 
-        question = input("문제를 입력하세요: ").strip()
+        while True:
+            question = input("문제를 입력하세요: ").strip()
 
-        if not question:
-            print("문제는 비워둘 수 없습니다.")
-            return
+            if question:
+                break
+
+            print("문제는 비워둘 수 없습니다. 다시 입력하세요.")
 
         choices = []
 
         for number in range(1, 5):
-            choice = input(f"{number}번 보기 입력: ").strip()
+            while True:
+                choice = input(f"{number}번 보기 입력: ").strip()
 
-            if not choice:
-                print("보기는 비워둘 수 없습니다.")
-                return
+                if choice:
+                    choices.append(choice)
+                    break
 
-            choices.append(choice)
+                print("보기는 비워둘 수 없습니다. 다시 입력하세요.")
 
         while True:
             answer = input("정답 번호를 입력하세요 (1~4): ").strip()
 
-            if not answer.isdigit():
-                print("숫자를 입력해 주세요.")
-                continue
+            if answer.isdigit() and 1 <= int(answer) <= 4:
+                answer = int(answer)
+                break
 
-            answer = int(answer)
-
-            if answer < 1 or answer > 4:
-                print("1~4 사이의 번호를 입력해 주세요.")
-                continue
-
-            break
+            print("1~4 사이의 숫자를 입력하세요.")
 
         new_quiz = Quiz(question, choices, answer)
         self.quizzes.append(new_quiz)

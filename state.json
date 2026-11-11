@@ -1,4 +1,4 @@
-﻿{
+{
     "quizzes": [
         {
             "question": "구미호라는 별명을 가진 챔피언은?",
@@ -51,15 +51,25 @@
             "answer": 2
         },
         {
-            "question": "요들챔피언은?",
+            "question": "ff",
             "choices": [
-                "가렌",
-                "아리",
-                "나르",
-                "징크스"
+                "d",
+                "d",
+                "d",
+                "d"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "집가고싶다",
+            "choices": [
+                "3",
+                "2",
+                "1",
+                "1"
             ],
             "answer": 3
         }
     ],
-    "best_score": 5
+    "best_score": 2
 }

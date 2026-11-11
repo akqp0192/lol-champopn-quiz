@@ -133,8 +133,8 @@ class QuizGame:
 
             else:
                 print("1~5 사이의 번호를 입력해 주세요.")
-        def add_quiz(self):
-            print("\n===== 퀴즈 추가 =====")
+    def add_quiz(self):
+        print("\n===== 퀴즈 추가 =====")
 
         while True:
             question = input("문제를 입력하세요: ").strip()
@@ -174,9 +174,17 @@ class QuizGame:
     def list_quizzes(self):
         print("\n===== 퀴즈 목록 =====")
 
-        for number, quiz in enumerate(self.quizzes, start=1):
-            print(f"{number}. {quiz.question}")
+        if not self.quizzes:
+            print("등록된 퀴즈가 없습니다.")
+            return
 
+        for number, quiz in enumerate(self.quizzes, start=1):
+            print(f"\n[{number}] {quiz.question}")
+
+            for choice_number, choice in enumerate(quiz.choices, start=1):
+                print(f"  {choice_number}. {choice}")
+
+        print(f"\n총 {len(self.quizzes)}개의 퀴즈가 등록되어 있습니다.")
     def show_best_score(self):
         print(f"현재 최고 점수: {self.best_score}")
 

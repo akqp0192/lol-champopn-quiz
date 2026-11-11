@@ -51,6 +51,16 @@ lol-champopn-quiz/
 ├── state.json
 ├── test_quiz.py
 ├── .gitignore
+├── docs/
+│   └── images/
+│       ├── 01_environment/
+│       ├── 02_git_github/
+│       ├── 03_quiz_features/
+│       ├── 04_json_save/
+│       ├── 05_exception_handling/
+│       ├── 06_branch_merge/
+│       ├── 07_clone_pull/
+│       └── 08_final_result/
 └── README.md
 ```
 
@@ -76,6 +86,78 @@ lol-champopn-quiz/
 - clone 폴더에서 README를 수정하고 push
 - 원본 저장소에서 pull하여 변경 사항 동기화
 - 입력 검증, 데이터 검증 및 자동화 테스트 보완
+
+## 실행 화면 및 개발 과정 증거
+
+참고 저장소처럼 스크린샷을 개별 이미지 파일로 정리했습니다. 각 이미지는 `docs/images` 아래 주제별 폴더에 저장되어 있습니다.
+
+### 1. 환경 설정
+
+![파이썬 및 Git 버전 확인](docs/images/01_environment/파이썬_깃_버전확인.jpg)
+
+![프로젝트 파일 이름](docs/images/01_environment/파일이름.jpg)
+
+### 2. Git 및 GitHub
+
+![Git 기능 커밋](docs/images/02_git_github/git_기능_커밋.jpg)
+
+### 3. 퀴즈 기능 구현
+
+![Quiz 클래스 정의](docs/images/03_quiz_features/class정의.jpg)
+
+![퀴즈 기능 1](docs/images/03_quiz_features/퀴즈_기능1.jpg)
+
+![퀴즈 기능 2](docs/images/03_quiz_features/퀴즈_기능2.jpg)
+
+![퀴즈 기능 3](docs/images/03_quiz_features/퀴즈기능3.jpg)
+
+![퀴즈 기능 4](docs/images/03_quiz_features/퀴즈_기능_4.jpg)
+
+![퀴즈 기능 5](docs/images/03_quiz_features/퀴즈_기능_5.jpg)
+
+![퀴즈 게임 클래스](docs/images/03_quiz_features/퀴즈게임_클래스.jpg)
+
+### 4. JSON 데이터 저장
+
+![JSON 저장](docs/images/04_json_save/저장.jpg)
+
+### 5. 예외 처리 및 오류 복구
+
+![예외 처리](docs/images/05_exception_handling/예외처리.jpg)
+
+![손상된 JSON 오류 복구](docs/images/05_exception_handling/손상된_JSON오류복구.jpg)
+
+![잘못된 JSON 복구 화면](docs/images/05_exception_handling/잘못된_JSON_복귀화면.jpg)
+
+### 6. 브랜치 생성 및 병합
+
+![Feature 브랜치 생성](docs/images/06_branch_merge/feature브랜치생성.jpg)
+
+![브랜치 커밋 및 병합](docs/images/06_branch_merge/브랜치_커밋_브랜치_병합.jpg)
+
+![GitHub 병합 결과](docs/images/06_branch_merge/GitHib병합결과.jpg)
+
+### 7. Clone 및 Pull
+
+![Git Clone](docs/images/07_clone_pull/GitClone.jpg)
+
+![Git Clone 추가 화면](docs/images/07_clone_pull/GitClone2.jpg)
+
+![Clone 폴더 수정 및 Push](docs/images/07_clone_pull/Clone에서수정및Push.jpg)
+
+![Git Pull](docs/images/07_clone_pull/GitPull.jpg)
+
+### 8. 최종 실행 결과
+
+![퀴즈 플레이](docs/images/08_final_result/1.퀴즈_플레이.jpg)
+
+![퀴즈 추가](docs/images/08_final_result/2.퀴즈_추가.jpg)
+
+![퀴즈 목록](docs/images/08_final_result/3.퀴즈_목록.jpg)
+
+![최고 점수 확인](docs/images/08_final_result/4.최고_점수_확인.jpg)
+
+![종료 및 데이터 저장](docs/images/08_final_result/5.종료_및_이전데이터_저장.jpg)
 
 ## 저장소
 

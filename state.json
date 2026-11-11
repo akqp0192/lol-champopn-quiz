@@ -51,25 +51,15 @@
             "answer": 2
         },
         {
-            "question": "ff",
+            "question": "요들챔피언은?",
             "choices": [
-                "d",
-                "d",
-                "d",
-                "d"
+                "가렌",
+                "갱플랭크",
+                "암베사",
+                "나르"
             ],
-            "answer": 3
-        },
-        {
-            "question": "집가고싶다",
-            "choices": [
-                "3",
-                "2",
-                "1",
-                "1"
-            ],
-            "answer": 3
+            "answer": 4
         }
     ],
-    "best_score": 2
+    "best_score": 5
 }
